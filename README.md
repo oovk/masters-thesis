@@ -1,4 +1,4 @@
-# Knowledge Base Extraction using LLMs
+# Knowledge Base Extraction from tabular data using LLMs
 
 ## Working
 
