@@ -1,0 +1,10 @@
+COMPONENT NAME,SYMBOL,PARAMETER,MIN,TYP,MAX,UNITS,TEST CONDITIONS
+OPE1275H,VCC,Supply Voltage,4.5,5.0,5.5,V,
+OPE1275H,ICC,Supply Current,-,21,27,mA,VCC = 5.0 volts
+OPE1275H,VOH,High Level Output Voltage,Vcc-0.5,-,-,V,IC = 100 μA
+OPE1275H,VOL,Low Level Output Voltage,-,-,0.4,V,IC = 20 mA
+OPE1275H,TR,Rise Time,-,500,-,ns,"10% to 90%, VCC = 5.0 volts"
+OPE1275H,TF,Fall Time,-,100,-,ns,"10% to 90%, VCC = 5.0 volts"
+OPE1275H,FR,Frequency Response,-,-,60,kHz,
+OPE1275H,H.S.,Hole Size,0.10,-,-,inch,
+OPE1275H,Rotation,Maximum speed of rotation with 1024 holes per rotation,-,-,100,rev/sec,

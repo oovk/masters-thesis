@@ -1,0 +1,165 @@
+output_prompt = """
+# Output in JSON triplets
+[
+  {{
+    "head":"OPE1275H",
+    "relation":"part_of",
+    "tail":"hardware_component"
+  }},
+  {{
+    "head": "OPE1275H",
+    "relation":"has_property",
+    "tail":"supply voltage"
+  }},
+  {{
+    "head":"supply voltage",
+    "relation":"hasNumericalValue",
+    "tail":"5.0"
+  }},
+  {{
+    "head":"supply voltage",
+    "relation":"hasLowerBoundNumericalValue",
+    "tail":"4.5"
+  }},
+  {{
+    "head":"supply voltage",
+    "relation":"hasUpperBoundNumericalValue",
+    "tail":"5.5"
+  }},
+  {{
+    "head":"supply voltage",
+    "relation":"has_unit",
+    "tail":"V"
+  }},
+  {{
+    "head":"OPE1275H",
+    "relation":"has_property",
+    "tail":"supply current"
+  }},
+  {{
+    "head":"supply current",
+    "relation":"hasNumericalValue",
+    "tail":"21"
+  }},
+  {{
+    "head":"supply current",
+    "relation":"has_unit",
+    "tail":"mA"
+  }},
+  {{
+    "head":"OPE1275H",
+    "relation":"has_property",
+    "tail":"high level output voltage"
+  }},
+  {{
+    "head":"high level output voltage",
+    "relation":"hasLowerBoundNumericalValue",
+    "tail":"Vcc-0.5"
+  }},
+  {{
+    "head":"high level output voltage",
+    "relation":"has_unit",
+    "tail":"V"
+  }},
+  {{
+    "head":"high level output voltage",
+    "relation":"test_conditions",
+    "tail":"IC = 100 µA"
+  }},
+  {{
+    "head":"OPE1275H",
+    "relation":"has_property",
+    "tail":"low level output voltage"
+  }},
+  {{
+    "head":"low level output voltage",
+    "relation":"hasUpperBoundNumericalValue",
+    "tail":"0.4"
+  }},
+  {{
+    "head":"low level output voltage",
+    "relation":"has_unit",
+    "tail":"V"
+  }},
+  {{
+    "head":"low level output voltage",
+    "relation":"test_conditions",
+    "tail":"IC = 20 mA"
+  }},
+  {{
+    "head":"OPE1275H",
+    "relation":"has_property",
+    "tail":"rise time"
+  }},
+  {{
+    "head":"rise time",
+    "relation":"hasNumericalValue",
+    "tail":"500"
+  }},
+  {{
+    "head":"rise time",
+    "relation":"has_unit",
+    "tail":"ns"
+  }},
+  {{
+    "head":"OPE1275H",
+    "relation":"has_property",
+    "tail":"fall time"
+  }},
+  {{
+    "head":"fall time",
+    "relation":"hasNumericalValue",
+    "tail":"100"
+  }},
+  {{
+    "head":"fall time",
+    "relation":"has_unit",
+    "tail":"ns"
+  }},
+  {{
+    "head":"OPE1275H",
+    "relation":"has_property",
+    "tail":"frequency response"
+  }},
+  {{
+    "head":"frequency response",
+    "relation":"hasUpperBoundNumericalValue",
+    "tail":"60"
+  }},
+  {{
+    "head":"frequency response",
+    "relation":"has_unit",
+    "tail":"kHz"
+  }},
+  {{
+    "head":"OPE1275H",
+    "relation":"has_property",
+    "tail":"hole size"
+  }},
+  {{
+    "head":"hole size",
+    "relation":"hasLowerBoundNumericalValue",
+    "tail":"0.10"
+  }},
+  {{
+    "head":"hole size",
+    "relation":"has_unit",
+    "tail":"inch"
+  }},
+  {{
+    "head":"OPE1275H",
+    "relation":"has_property",
+    "tail":"Rotation"
+  }},
+  {{
+    "head":"Rotation",
+    "relation":"hasUpperBoundNumericalValue",
+    "tail":"100"
+  }},
+  {{
+    "head":"Rotation",
+    "relation":"has_unit",
+    "tail":"rev/sec"
+  }}
+]
+"""
