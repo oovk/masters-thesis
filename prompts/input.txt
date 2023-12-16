@@ -1,10 +1,19 @@
 input_prompt = """Based on the following example, extract entities and relations from the provided specification.
 
 Use the following entity types:
-{entity_types}
+entity_types = {
+  "hardware_component":"http://w3id.org/gbo#hardware_component", 
+  "software_component":"http://w3id.org/gbo#software_component"
+}
 
 Use the following relation types:
-{relation_types}
+relation_types = {
+  "has_property":"http://w3id.org/gbo#has_property",
+  "has_unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit", 
+  "hasNumericalValue":"http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue", 
+  "hasLowerBoundNumericalValue":"http://w3id.org/gbo/hasLowerBoundNumericalValue", 
+  "hasUpperBoundNumericalValue":"http://w3id.org/gbo/hasUpperBoundNumericalValue"
+ }
 
 # specification
 COMPONENT NAME,SYMBOL,PARAMETER,MIN,TYP,MAX,UNITS,TEST CONDITIONS
