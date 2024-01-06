@@ -1,0 +1,44 @@
+input_prompt = """Based on the following example, extract entities and relations for each row from the provided specification.
+
+Use the following entity types:
+entity_types = {
+    "PowerDissipation" 
+    "SingleSupplyVoltage"
+    "SupplyVoltage"
+    "OperatingTemperature"
+    "OperatingSupplyVoltage"
+    "DualSupplyVoltage"
+    "SupplyCurrent"
+    "InputBiasCurrent"
+    "OutputCurrent"
+    "PSRR"
+    "CMRR"
+    "Gain"
+    "PowerGain"
+    "GainBandwidthProduct"
+    "OperatingFrequency"
+    "NoiseFigure"
+}
+
+Use the following relation types:
+relation_types = {
+    "hasType",
+    "hasProperty",
+    "hasUnit", 
+    "hasNumericalValue", 
+    "hasLowerBoundNumericalValue",
+    "hasUpperBoundNumericalValue",
+    "hasManufacturer",
+    "hasPowerSupplyType", 
+    "hasInputSignalType",
+    "hasOutputSignalType",
+    "hasOutputType",
+    "hasPinCount",
+    "hasProcessTechnology"
+}
+
+# specification
+Part,Type,Manufacturer,PowerSupplyType,PinCount,TypicalPowerGain,TypicalPowerGainUnit,MaximumOperatingSupplyVoltage,MaximumOperatingSupplyVoltageUnit,TypicalSingleSupplyVoltage,TypicalSingleSupplyVoltageUnit,MinimumSingleSupplyVoltage,MinimumSingleSupplyVoltageUnit,MaximumSingleSupplyVoltage,MaximumSingleSupplyVoltageUnit,MinimumOperatingFrequency,MinimumOperatingFrequencyUnit,MaximumOperatingFrequency,MaximumOperatingFrequencyUnit,TypicalNoiseFigure,TypicalNoiseFigureUnit,MinimumOperatingTemperature,MinimumOperatingTemperatureUnit,MaximumOperatingTemperature,MaximumOperatingTemperatureUnit,MaximumSupplyCurrent,MaximumSupplyCurrentUnit,MaximumPowerDissipation,MaximumPowerDissipationUnit
+ABC3014NT1,Broadband Amplifier,NXP Semiconductors,Single,4,19.5,dB,6,V,5,V,-,V,6,V,40,MHz,4000,MHz,5.7,dB,-,°C,150,°C,160,mA,-,mW
+PQR855N6E6327XTSA1,Low Noise Amplifier,Infineon Technologies AG,Single,6,-,dB,3.3,V,1.2,V,1.1,V,3.3,V,1164,MHz,1300,MHz,0.6,dB,-40,°C,85,°C,6.4,mA,60,mW
+"""

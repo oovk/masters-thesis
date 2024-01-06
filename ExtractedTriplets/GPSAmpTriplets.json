@@ -1,0 +1,1502 @@
+[
+  [
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasManufacturer",
+      "tail": "Infineon Technologies AG"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasProcessTechnology",
+      "tail": "SiGe"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.6"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1550"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1615"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "0.65"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.6"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGA725L6E6327FTSA1",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "72"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGU7005-115",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasProcessTechnology",
+      "tail": "SiGe"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "20"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "1.8"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.1"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1850"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "1.3"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "14.4"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGU7005-115",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "55"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasManufacturer",
+      "tail": "Infineon Technologies AG"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasPinCount",
+      "tail": "4"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "19.9"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "1.8"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.1"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.6"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1550"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1615"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "0.75"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1.7"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "40"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasManufacturer",
+      "tail": "Infineon Technologies AG"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasProcessTechnology",
+      "tail": "SiGe"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "20"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "1.8"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.6"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1550"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1615"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "0.7"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.3"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGA715N7E6327XTSA2",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "36"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGU8103X",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasProcessTechnology",
+      "tail": "SiGe"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "18.5"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.1"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1559"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1610"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "1.4"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "2.5"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGU8103X",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "55"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGU8019X",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasProcessTechnology",
+      "tail": "SiGe"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "20.5"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.1"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1559"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1610"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "1.3"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "\u00b0C"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "10.0"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGU8019X",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "55"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGU7007-115",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasProcessTechnology",
+      "tail": "SiGe"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "21.5"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.1"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1559"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1610"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "1.3"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "15.9"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGU7007-115",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "55"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGU7008-115",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasProcessTechnology",
+      "tail": "SiGe"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "21.5"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "2.85"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1559"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1610"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "1.3"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "15.9"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGU7008-115",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "55"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGU7004-115",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasProcessTechnology",
+      "tail": "SiGe"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "21"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "2.85"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1559"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1610"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "1.3"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "14.4"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGU7004-115",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "55"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasManufacturer",
+      "tail": "Infineon Technologies AG"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasProcessTechnology",
+      "tail": "SiGe"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "Gain"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "Gain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1550"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1615"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "0.55"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.6"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGA524N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "60"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ]
+]

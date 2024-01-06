@@ -1,0 +1,44 @@
+input_prompt = """Based on the following example, extract entities and relations for each row from the provided specification.
+
+Use the following entity types:
+entity_types = {
+    "PowerDissipation" 
+    "SingleSupplyVoltage"
+    "SupplyVoltage"
+    "OperatingTemperature"
+    "OperatingSupplyVoltage"
+    "DualSupplyVoltage"
+    "SupplyCurrent"
+    "InputBiasCurrent"
+    "OutputCurrent"
+    "PSRR"
+    "CMRR"
+    "Gain"
+    "PowerGain"
+    "GainBandwidthProduct"
+    "OperatingFrequency"
+    "NoiseFigure"
+}
+
+Use the following relation types:
+relation_types = {
+    "hasType",
+    "hasProperty",
+    "hasUnit", 
+    "hasNumericalValue", 
+    "hasLowerBoundNumericalValue",
+    "hasUpperBoundNumericalValue",
+    "hasManufacturer",
+    "hasPowerSupplyType", 
+    "hasInputSignalType",
+    "hasOutputSignalType",
+    "hasOutputType",
+    "hasPinCount",
+    "hasProcessTechnology"
+}
+
+# specification
+Part,Type,Manufacturer,ProcessTechnology,PowerSupplyType,PinCount,MinimumPSRR,MinimumPSRRUnit,MaximumOperatingSupplyVoltage,MaximumOperatingSupplyVoltageUnit,MinimumSupplyVoltage,MinimumSupplyVoltageUnit,MaximumSupplyVoltage,MaximumSupplyVoltageUnit,TypicalSingleSupplyVoltage,TypicalSingleSupplyVoltageunit,MinimumSingleSupplyVoltage,MinimumSingleSupplyVoltageUnit,MaximumSingleSupplyVoltage,MaximumSingleSupplyVoltageUnit,MinimumCMRR,MinimumCMRRUnit,MaximumInputBiasCurrent,MaximumInputBiasCurrentUnit,MinimumOperatingTemperature,MinimumOperatingTemperatureUnit,MaximumOperatingTemperature,MaximumOperatingTemperatureUnit,TypicalOutputCurrent,TypicalOutputCurrentUnit,TypicalGainBandwidthProduct,TypicalGainBandwidthProductUnit
+ABC607-I-P ,Micropower Amplifier ,Microchip Technology ,CMOS ,Single ,8,80,dB,6,V,6.0,V,9,V,3|5,V,2.5,V,6.0,V,75,dB,-,uA,-40,°C,85,°C,30,mA,0.155,MHz
+PQR6034-E-S ,Precision Amplifier ,Microchip Technology ,CMOS ,Single ,14,70,dB,5.5,V,5.5,V,6,V,3|5,V,1.8,V,5.5,V,70,dB,0.0001,uA,-40,°C,125,°C,30,mA,0.01,MHz
+"""

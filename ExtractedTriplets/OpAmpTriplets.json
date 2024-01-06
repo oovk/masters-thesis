@@ -1,0 +1,1595 @@
+[
+  [
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasType",
+      "tail": "Micropower Amplifier"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasManufacturer",
+      "tail": "Microchip Technology"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProcessTechnology",
+      "tail": "CMOS"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "80"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "9"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "2.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "75"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProperty",
+      "tail": "OutputCurrent"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "MCP607-I-P",
+      "relation": "hasProperty",
+      "tail": "GainBandwidthProduct"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasNumericalValue",
+      "tail": "0.155"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    }
+  ],
+  [
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasType",
+      "tail": "Precision Amplifier"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasManufacturer",
+      "tail": "Microchip Technology"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProcessTechnology",
+      "tail": "CMOS"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasPinCount",
+      "tail": "14"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "70"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.8"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "70"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "0.0001"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "\u00b0C"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProperty",
+      "tail": "OutputCurrent"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "MCP6034-E-SL",
+      "relation": "hasProperty",
+      "tail": "GainBandwidthProduct"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasNumericalValue",
+      "tail": "0.01"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    }
+  ],
+  [
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasType",
+      "tail": "Auto Zero Amplifier"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasManufacturer",
+      "tail": "Microchip Technology"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProcessTechnology",
+      "tail": "CMOS"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "2.3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "120"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "0.005"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProperty",
+      "tail": "OutputCurrent"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "MCP6V27-E-SN",
+      "relation": "hasProperty",
+      "tail": "GainBandwidthProduct"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasNumericalValue",
+      "tail": "2.0"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    }
+  ],
+  [
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasType",
+      "tail": "General Purpose Amplifier"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasManufacturer",
+      "tail": "Microchip Technology"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProcessTechnology",
+      "tail": "CMOS"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "70"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "2.4"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "70"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1e-06"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProperty",
+      "tail": "OutputCurrent"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "MCP6292-E-P",
+      "relation": "hasProperty",
+      "tail": "GainBandwidthProduct"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasNumericalValue",
+      "tail": "10.0"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    }
+  ],
+  [
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasType",
+      "tail": "Chopper Amplifier"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasManufacturer",
+      "tail": "Microchip Technology"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProcessTechnology",
+      "tail": "CMOS"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "120"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.8"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "120"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProperty",
+      "tail": "OutputCurrent"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "MCP6V32-E-MS",
+      "relation": "hasProperty",
+      "tail": "GainBandwidthProduct"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasNumericalValue",
+      "tail": "0.3"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    }
+  ],
+  [
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasType",
+      "tail": "High Speed Amplifier"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProcessTechnology",
+      "tail": "Bipolar"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single|Dual"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "100"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5|9"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "3.0"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "12.0"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "72"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "2.6"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProperty",
+      "tail": "OutputCurrent"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasNumericalValue",
+      "tail": "110"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "OPA625IDBVT",
+      "relation": "hasProperty",
+      "tail": "GainBandwidthProduct"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasNumericalValue",
+      "tail": "86.0"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    }
+  ],
+  [
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasType",
+      "tail": "Low Offset Voltage Amplifier"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProcessTechnology",
+      "tail": "VIP10"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single|Dual"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "72"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "12"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "12.5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5|9|12|15|18|24|28"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "0.07"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "OutputCurrent"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasNumericalValue",
+      "tail": "20"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "LMH6639MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "GainBandwidthProduct"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasNumericalValue",
+      "tail": "1.2"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    }
+  ],
+  [
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasType",
+      "tail": "Wideband Amplifier"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProcessTechnology",
+      "tail": "LinCMOS"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "54"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "16"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "16"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "17"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "2.7"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "54"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1e-05"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProperty",
+      "tail": "GainBandwidthProduct"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    }
+  ],
+  [
+    {
+      "head": "OPA343UA",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProcessTechnology",
+      "tail": "CMOS"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single|Dual"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasNumericalValue",
+      "tail": "87.96"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5|9|12|15"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "70"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "0.0001"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "70"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProperty",
+      "tail": "OutputCurrent"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasNumericalValue",
+      "tail": "50"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "OPA343UA",
+      "relation": "hasProperty",
+      "tail": "GainBandwidthProduct"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasNumericalValue",
+      "tail": "0.71"
+    },
+    {
+      "head": "GainBandwidthProduct",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    }
+  ]
+]

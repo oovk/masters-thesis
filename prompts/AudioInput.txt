@@ -1,0 +1,44 @@
+input_prompt = """Based on the following example, extract entities and relations for each row from the provided specification.
+
+Use the following entity types:
+entity_types = {
+    "PowerDissipation" 
+    "SingleSupplyVoltage"
+    "SupplyVoltage"
+    "OperatingTemperature"
+    "OperatingSupplyVoltage"
+    "DualSupplyVoltage"
+    "SupplyCurrent"
+    "InputBiasCurrent"
+    "OutputCurrent"
+    "PSRR"
+    "CMRR"
+    "Gain"
+    "PowerGain"
+    "GainBandwidthProduct"
+    "OperatingFrequency"
+    "NoiseFigure"
+}
+
+Use the following relation types:
+relation_types = {
+    "hasType",
+    "hasProperty",
+    "hasUnit", 
+    "hasNumericalValue", 
+    "hasLowerBoundNumericalValue",
+    "hasUpperBoundNumericalValue",
+    "hasManufacturer",
+    "hasPowerSupplyType", 
+    "hasInputSignalType",
+    "hasOutputSignalType",
+    "hasOutputType",
+    "hasPinCount",
+    "hasProcessTechnology"
+}
+
+# specification
+Part,Type,PowerSupplyType,InputSignalType,OutputSignalType,OutputType,PinCount,TypicalSingleSupplyVoltage,TypicalSingleSupplyVoltageUnit,MinimumSingleSupplyVoltage,MinimumSingleSupplyVoltageUnit,MaximumSingleSupplyVoltage,MaximumSingleSupplyVoltageUnit,MinimumOperatingTemperature,MinimumOperatingTemperatureUnit,MaximumOperatingTemperature,MaximumOperatingTemperatureUnit,MaximumPowerDissipation,MaximumPowerDissipationUnit
+TDA7265 ,Class-AB ,Single ,Single ,Differential ,1-Channel Mono ,8,3|5,V,2,V,5.5,V,-40,°C,85,°C,-,mW
+TDA7851A ,Class-AB ,Single ,Differential|Single ,Differential ,1-Channel Mono ,8,3|5,V,2.2,V,5.5,V,-40,°C,85,°C,-,mW
+"""

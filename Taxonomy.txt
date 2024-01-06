@@ -1,0 +1,192 @@
+Class Amplifier
+    - subClass OperationalAmplifier
+        - subClass AutoZeroAmplifier
+        - subClass ChopperAmplifier 
+        - subClass GeneralPurposeAmplifier 
+        - subClass HighSpeedAmplifier 
+        - subClass LowNoiseAmplifier 
+        - subClass LowOffsetVoltageAmplifier 
+        - subClass LowPowerAmplifier 
+        - subClass MicropowerAmplifier 
+        - subClass PrecisionAmplifier 
+        - subClass WidebandAmplifier 
+    - subClass VideoAmplifier
+        - subClass Single
+        - subClass Dual
+        - subClass Triple
+        - subClass Quad
+        - subClass Hex
+    - subClass InstrumentalAmplifier
+        - subClass Single
+        - subClass Dual
+    - subClass AudioAmplifier
+        - subClass ClassAB
+        - subClass ClassD
+        - subClass ClassG
+    - subClass RFAmplifier
+        - subClass BroadbandAmplifier
+        - subClass GeneralPurposeAmplifier
+        - subClass LowNoiseAmplifier
+        - subClass MMICAmplifier
+        - subClass PowerAmplifier
+        - subClass WidebandAmplifier
+    - subClass GPSAmplifier
+        - subClass LowNoiseAmplifier
+
+ObjectProperties : Describe relationship between two individuals
+    - hasProperty
+        - SupplyVoltage
+        - OperatingSupplyVoltage
+        - SingleSupplyVoltage
+        - DualSupplyVoltage
+        - OperatingTemperature
+        - SupplyCurrent
+        - InputBiasCurrent
+        - OutputCurrent
+        - PSRR
+        - CMRR
+        - Gain
+        - PowerGain
+        - GainBandwidthProduct
+        - PowerDissipation 
+        - OperatingFrequency
+        - NoiseFigure
+
+    
+DataProperties : Describe relationship between individuals and data values
+    - hasNumericalValue
+    - hasLowerBoundNumericalValue
+    - hasUpperBoundNumericalValue
+    - hasUnit
+    - hasManufacturer
+    - hasPowerSupplyType
+    - hasInputSignalType
+    - hasOutputSignalType
+    - hasOutputType
+    - hasPinCount 
+    - hasProcessTechnology
+
+    ** These have value, upper, lower **
+
+    - PowerDissipation
+        - hasMaximumPowerDissipation
+    - SingleSupplyVoltage
+        - hasTypicalSingleSupplyVoltage
+        - hasMinimumSingleSupplyVoltage
+        - hasMaximumSingleSupplyVoltage
+    - OperatingTemperature
+        - hasMinimumOperatingTemperature
+        - hasMaximumOperatingTemperature
+    - PSRR
+        - hasMinimumPSRR
+    - OperatingSupplyVoltage
+        - hasMaximumOperatingSupplyVoltage
+    - SupplyVoltage
+        - hasMinimumSupplyVoltage
+        - hasMaximumSupplyVoltage
+    - DualSupplyVoltage
+        - hasTypicalDualSupplyVoltage
+        - hasMinimumDualSupplyVoltage
+        - hasMaximumDualSupplyVoltage
+    - CMRR
+        - hasMinimumCMRR
+    - InputBiasCurrent
+        - hasMaximumInputBiasCurrent
+    - OutputCurrent
+        - hasTypicalOutputCurrent
+    - GainBandwidthProduct
+        - hasTypicalGainBandwidthProduct 
+    - Gain
+        - hasMaximumGain
+    - OperatingFrequency
+        - hasMinimumOperatingFrequency
+        - hasMaximumOperatingFrequency
+    - NoiseFigure
+        - hasTypicalNoiseFigure
+    - SupplyCurrent
+        - hasMaximumSupplyCurrent
+    - PowerGain    
+        - hasTypicalPowerGain
+
+    PQORS -> hasProperty -> SingleSupplyVoltage -> hasLowerBoundNumericalValue
+                                                -> hasUpperBoundNumericalValue
+                                                -> hasUnit
+
+
+
+
+Amplifier
+    OperationalAmplifier
+        AutoZeroOperationalAmplifier
+        ChopperOperationalAmplifier 
+        GeneralPurposeOperationalAmplifier 
+        HighSpeedOperationalAmplifier 
+        LowNoiseOperationalAmplifier 
+        LowOffsetVoltageOperationalAmplifier 
+        LowPowerOperationalAmplifier 
+        MicropowerOperationalAmplifier 
+        PrecisionOperationalAmplifier 
+        WidebandOperationalAmplifier 
+    VideoAmplifier
+        SingleVideoAmplifier
+        DualVideoAmplifier
+        TripleVideoAmplifier
+        QuadVideoAmplifier
+        HexVideoAmplifier
+    InstrumentalAmplifier
+        SingleInstrumentalAmplifier
+        DualInstrumentalAmplifier
+    AudioAmplifier
+        ClassAB
+        ClassD
+        ClassG
+    RFAmplifier
+        BroadbandRFAmplifier
+        GeneralPurposeRFAmplifier
+        LowNoiseRFAmplifier
+        MMICRFAmplifier
+        PowerRFAmplifier
+        WidebandRFAmplifier
+    GPSAmplifier
+        LowNoiseGPSAmplifier
+
+
+
+    hasProperty
+    
+    "Entity"
+    PowerDissipation 
+    SingleSupplyVoltage
+    SupplyVoltage
+    OperatingTemperature
+    OperatingSupplyVoltage
+    DualSupplyVoltage
+    SupplyCurrent
+    InputBiasCurrent
+    OutputCurrent
+    PSRR
+    CMRR
+    Gain
+    PowerGain
+    GainBandwidthProduct
+    OperatingFrequency
+    NoiseFigure
+
+    "Relations"
+    hasNumericalValue
+    hasLowerBoundNumericalValue
+    hasUpperBoundNumericalValue
+    hasUnit
+    hasManufacturer 
+    hasPowerSupplyType 
+    hasInputSignalType
+    hasOutputSignalType
+    hasOutputType 
+    hasPinCount
+    hasProcessTechnology 
+
+
+The domain of a property is the set of all objects that can have that
+property asserted about it. The range is the set of all objects that can be the value of the property.
+
+Restrictions: Only those values are allowed to assign to a particular individual of class

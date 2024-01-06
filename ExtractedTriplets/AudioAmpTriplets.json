@@ -1,0 +1,947 @@
+[
+  [
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasType",
+      "tail": "Class-AB"
+    },
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasInputSignalType",
+      "tail": "Single"
+    },
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasOutputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasOutputType",
+      "tail": "1-Channel Mono"
+    },
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "2"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.50"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "LM4861M-NOPB",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasType",
+      "tail": "Class-AB"
+    },
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasInputSignalType",
+      "tail": "Differential|Single"
+    },
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasOutputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasOutputType",
+      "tail": "1-Channel Mono"
+    },
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "2.2"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "LM4889MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasType",
+      "tail": "Class-D"
+    },
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasInputSignalType",
+      "tail": "Single"
+    },
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasOutputSignalType",
+      "tail": "Differential|Single"
+    },
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasOutputType",
+      "tail": "1-Channel Mono|2-Channel Stereo"
+    },
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasPinCount",
+      "tail": "20"
+    },
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "12|15|18|24"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "10"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "26"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "TPA3125D2N",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1870"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasType",
+      "tail": "Class-D"
+    },
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasManufacturer",
+      "tail": "Rohm Semiconductor"
+    },
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasInputSignalType",
+      "tail": "Single"
+    },
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasOutputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasOutputType",
+      "tail": "2-Channel Stereo"
+    },
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasPinCount",
+      "tail": "24"
+    },
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "9|12|15|18"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "8.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "24"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-25"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BD28623MUV-E2",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3560"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "OPA1611AID",
+      "relation": "hasType",
+      "tail": "Class-AB"
+    },
+    {
+      "head": "OPA1611AID",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "OPA1611AID",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single|Dual"
+    },
+    {
+      "head": "OPA1611AID",
+      "relation": "hasInputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "OPA1611AID",
+      "relation": "hasOutputSignalType",
+      "tail": "Single"
+    },
+    {
+      "head": "OPA1611AID",
+      "relation": "hasOutputType",
+      "tail": "1-Channel Mono"
+    },
+    {
+      "head": "OPA1611AID",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "OPA1611AID",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5|9|12|15|18|24|28"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "4.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "36"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "OPA1611AID",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "OPA1611AID",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasType",
+      "tail": "Class-G"
+    },
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasInputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasOutputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasOutputType",
+      "tail": "1-Channel Mono"
+    },
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasPinCount",
+      "tail": "12"
+    },
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "2.8"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.2"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "PAM8945PJR",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasType",
+      "tail": "Class-AB"
+    },
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasInputSignalType",
+      "tail": "Single"
+    },
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasOutputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasOutputType",
+      "tail": "1-Channel Mono"
+    },
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "2.7"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "LM4862M-NOPB",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasType",
+      "tail": "Class-AB"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasInputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasOutputSignalType",
+      "tail": "Single"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasOutputType",
+      "tail": "1-Channel Mono"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5|9"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "4"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "12"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "70"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "595"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    }
+  ],
+  [
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasType",
+      "tail": "Class-D"
+    },
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasPowerSupplyType",
+      "tail": "Triple"
+    },
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasInputSignalType",
+      "tail": "Single"
+    },
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasOutputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasOutputType",
+      "tail": "2-Channel Stereo"
+    },
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasPinCount",
+      "tail": "32"
+    },
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-25"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "PAM8610TR",
+      "relation": "hasType",
+      "tail": "Class-D"
+    },
+    {
+      "head": "PAM8610TR",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "PAM8610TR",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "PAM8610TR",
+      "relation": "hasInputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "PAM8610TR",
+      "relation": "hasOutputSignalType",
+      "tail": "Differential"
+    },
+    {
+      "head": "PAM8610TR",
+      "relation": "hasOutputType",
+      "tail": "2-Channel Stereo"
+    },
+    {
+      "head": "PAM8610TR",
+      "relation": "hasPinCount",
+      "tail": "40"
+    },
+    {
+      "head": "PAM8610TR",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "12"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "7"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "15"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "PAM8610TR",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-20"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "PAM8610TR",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ]
+]

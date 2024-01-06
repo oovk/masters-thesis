@@ -1,0 +1,44 @@
+input_prompt = """Based on the following example, extract entities and relations for each row from the provided specification.
+
+Use the following entity types:
+entity_types = {
+    "PowerDissipation" 
+    "SingleSupplyVoltage"
+    "SupplyVoltage"
+    "OperatingTemperature"
+    "OperatingSupplyVoltage"
+    "DualSupplyVoltage"
+    "SupplyCurrent"
+    "InputBiasCurrent"
+    "OutputCurrent"
+    "PSRR"
+    "CMRR"
+    "Gain"
+    "PowerGain"
+    "GainBandwidthProduct"
+    "OperatingFrequency"
+    "NoiseFigure"
+}
+
+Use the following relation types:
+relation_types = {
+    "hasType",
+    "hasProperty",
+    "hasUnit", 
+    "hasNumericalValue", 
+    "hasLowerBoundNumericalValue",
+    "hasUpperBoundNumericalValue",
+    "hasManufacturer",
+    "hasPowerSupplyType", 
+    "hasInputSignalType",
+    "hasOutputSignalType",
+    "hasOutputType",
+    "hasPinCount",
+    "hasProcessTechnology"
+}
+
+# specification
+Part,Type,Manufacturer,PowerSupplyType,PinCount,TypicalDualSupplyVoltage,TypicalDualSupplyVoltageUnit,MinimumDualSupplyVoltage,MinimumDualSupplyVoltageUnit,MaximumDualSupplyVoltage,MaximumDualSupplyVoltageUnit,TypicalSingleSupplyVoltage,TypicalSingleSupplyVoltageUnit,MinimumSingleSupplyVoltage,MinimumSingleSupplyVoltageUnit,MaximumSingleSupplyVoltage,MaximumSingleSupplyVoltageUnit,MinimumOperatingTemperature,MinimumOperatingTemperatureUnit,MaximumOperatingTemperature,MaximumOperatingTemperatureUnit
+ABC6714MF-NOPB ,Single,Texas Instruments ,Single|Dual ,5,±5,V,±4,V,±6.25,V,9|12,V,8,V,12.6,V,-40,°C,85,°C
+PQR172IN-NOPB ,Dual,Texas Instruments ,Dual ,8,±5|±15,V,±2.75,V,±18,V,-,V,-,V,-,V,-40,°C,85,°C
+"""

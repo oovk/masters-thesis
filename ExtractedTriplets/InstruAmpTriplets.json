@@ -1,0 +1,1522 @@
+[
+  [
+    {
+      "head": "INA101HP",
+      "relation": "hasType",
+      "tail": "Single"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasPowerSupplyType",
+      "tail": "Dual"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasPinCount",
+      "tail": "14"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "±20"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "50"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "±15"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "0.02"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "INA101HP",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "70"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasType",
+      "tail": "Single"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasManufacturer",
+      "tail": "Microchip Technology"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "86"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "7"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3.3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "86"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "MCP6N11T-100E-MNY",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "INA122PA",
+      "relation": "hasType",
+      "tail": "Single"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single|Dual"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "100"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "±18|36"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "50"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "±3|±5|±9|±12|±15"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "76"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "0.05"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "INA122PA",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "PGA204AP",
+      "relation": "hasType",
+      "tail": "Single"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasPowerSupplyType",
+      "tail": "Dual"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasPinCount",
+      "tail": "16"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "±18"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "50"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "±15"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "75"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "0.005"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "PGA204AP",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "INA125UA",
+      "relation": "hasType",
+      "tail": "Single"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single|Dual"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasPinCount",
+      "tail": "16"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "±18"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "50"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "±15"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "72"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "0.05"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "INA125UA",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-55"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "INA115BU",
+      "relation": "hasType",
+      "tail": "Single"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasPowerSupplyType",
+      "tail": "Dual"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasPinCount",
+      "tail": "16"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "±18"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "50"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "±15"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "80"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "INA115BU",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasType",
+      "tail": "Single"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasPowerSupplyType",
+      "tail": "Dual"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasPinCount",
+      "tail": "16"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "±18"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "50"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "±15"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "70"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "12"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "INA217AIDWT",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasType",
+      "tail": "Single"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasPinCount",
+      "tail": "14"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "112"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "7"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "116"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "LMP8358MA-NOPB",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasType",
+      "tail": "Single"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasManufacturer",
+      "tail": "Microchip Technology"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasPinCount",
+      "tail": "8"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "104"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "7"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3.3|5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "94"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "MCP6N16-010E-MS",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "INA2128U",
+      "relation": "hasType",
+      "tail": "Dual"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasPowerSupplyType",
+      "tail": "Dual"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasPinCount",
+      "tail": "16"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasProperty",
+      "tail": "PSRR"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PSRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "±18"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasProperty",
+      "tail": "SupplyVoltage"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "30"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "50"
+    },
+    {
+      "head": "SupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "±15"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasProperty",
+      "tail": "CMRR"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "80"
+    },
+    {
+      "head": "CMRR",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasProperty",
+      "tail": "InputBiasCurrent"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "0.005"
+    },
+    {
+      "head": "InputBiasCurrent",
+      "relation": "hasUnit",
+      "tail": "uA"
+    },
+    {
+      "head": "INA2128U",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ]
+]

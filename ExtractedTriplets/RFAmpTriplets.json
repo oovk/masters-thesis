@@ -1,0 +1,1293 @@
+[
+  [
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasType",
+      "tail": "Broadband Amplifier"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasPinCount",
+      "tail": "4"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasProperty",
+      "tail": "PowerGain"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasNumericalValue",
+      "tail": "19.5"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "40"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "4000"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "5.7"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "150"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "160"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "MMG3014NT1",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasManufacturer",
+      "tail": "Infineon Technologies AG"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "PowerGain"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.3"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "1.2"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1.1"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3.3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "1164"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1300"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "0.6"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6.4"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGA855N6E6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "60"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasType",
+      "tail": "Power Amplifier"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasPinCount",
+      "tail": "24"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "PowerGain"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasNumericalValue",
+      "tail": "32.6"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "MaximumOperatingSupplyVoltage"
+    },
+    {
+      "head": "MaximumOperatingSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "32"
+    },
+    {
+      "head": "MaximumOperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "TypicalSingleSupplyVoltage"
+    },
+    {
+      "head": "TypicalSingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "28"
+    },
+    {
+      "head": "TypicalSingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "MinimumSingleSupplyVoltage"
+    },
+    {
+      "head": "MinimumSingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "26"
+    },
+    {
+      "head": "MinimumSingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "MaximumSingleSupplyVoltage"
+    },
+    {
+      "head": "MaximumSingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "32"
+    },
+    {
+      "head": "MaximumSingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "MinimumOperatingFrequency"
+    },
+    {
+      "head": "MinimumOperatingFrequency",
+      "relation": "hasNumericalValue",
+      "tail": "1805"
+    },
+    {
+      "head": "MinimumOperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "MaximumOperatingFrequency"
+    },
+    {
+      "head": "MaximumOperatingFrequency",
+      "relation": "hasNumericalValue",
+      "tail": "2170"
+    },
+    {
+      "head": "MaximumOperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "MinimumOperatingTemperature"
+    },
+    {
+      "head": "MinimumOperatingTemperature",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "MinimumOperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "MW7IC2020NT1",
+      "relation": "hasProperty",
+      "tail": "MaximumOperatingTemperature"
+    },
+    {
+      "head": "MaximumOperatingTemperature",
+      "relation": "hasNumericalValue",
+      "tail": "150"
+    },
+    {
+      "head": "MaximumOperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    }
+  ],
+  [
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasType",
+      "tail": "MMIC Amplifier"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasManufacturer",
+      "tail": "Infineon Technologies AG"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasPinCount",
+      "tail": "4"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "PowerGain"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasNumericalValue",
+      "tail": "13"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "100"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3300"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "2.3"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-65"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "150"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "8"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGA420H6327XTSA1",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "90"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasType",
+      "tail": "Low Noise Amplifier"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasManufacturer",
+      "tail": "Infineon Technologies AG"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasPinCount",
+      "tail": "4"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasProperty",
+      "tail": "PowerGain"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasNumericalValue",
+      "tail": "13.6"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "2.75"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "500"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6000"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "1.05"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-65"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "150"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGA622H6820XTSA1",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "35"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGA2866-115",
+      "relation": "hasType",
+      "tail": "MMIC Amplifier"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasProperty",
+      "tail": "PowerGain"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasNumericalValue",
+      "tail": "24.3"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasProperty",
+      "tail": "MinimumSingleSupplyVoltage"
+    },
+    {
+      "head": "MinimumSingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "4.5"
+    },
+    {
+      "head": "MinimumSingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "2200"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "3.9"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "125"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "20.1"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGA2866-115",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "200"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "BGA7024-115",
+      "relation": "hasType",
+      "tail": "General Purpose Amplifier"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasManufacturer",
+      "tail": "NXP Semiconductors"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasPinCount",
+      "tail": "4"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasProperty",
+      "tail": "PowerGain"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.7"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.7"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "1900"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "BGA7024-115",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ],
+  [
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasType",
+      "tail": "Wideband Amplifier"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasManufacturer",
+      "tail": "onsemi"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasPowerSupplyType",
+      "tail": "Single"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasPinCount",
+      "tail": "6"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasProperty",
+      "tail": "PowerGain"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasNumericalValue",
+      "tail": "27"
+    },
+    {
+      "head": "PowerGain",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasProperty",
+      "tail": "OperatingSupplyVoltage"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "OperatingSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "4.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "5.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasProperty",
+      "tail": "OperatingFrequency"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "3300"
+    },
+    {
+      "head": "OperatingFrequency",
+      "relation": "hasUnit",
+      "tail": "MHz"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasProperty",
+      "tail": "NoiseFigure"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasNumericalValue",
+      "tail": "4.7"
+    },
+    {
+      "head": "NoiseFigure",
+      "relation": "hasUnit",
+      "tail": "dB"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasProperty",
+      "tail": "OperatingTemperature"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "85"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasUnit",
+      "tail": "°C"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasProperty",
+      "tail": "SupplyCurrent"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "25"
+    },
+    {
+      "head": "SupplyCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "SMA3103-TL-E",
+      "relation": "hasProperty",
+      "tail": "PowerDissipation"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "280"
+    },
+    {
+      "head": "PowerDissipation",
+      "relation": "hasUnit",
+      "tail": "mW"
+    }
+  ]
+]

@@ -1,0 +1,44 @@
+input_prompt = """Based on the following example, extract entities and relations for each row from the provided specification.
+
+Use the following entity types:
+entity_types = {
+    "PowerDissipation" 
+    "SingleSupplyVoltage"
+    "SupplyVoltage"
+    "OperatingTemperature"
+    "OperatingSupplyVoltage"
+    "DualSupplyVoltage"
+    "SupplyCurrent"
+    "InputBiasCurrent"
+    "OutputCurrent"
+    "PSRR"
+    "CMRR"
+    "Gain"
+    "PowerGain"
+    "GainBandwidthProduct"
+    "OperatingFrequency"
+    "NoiseFigure"
+}
+
+Use the following relation types:
+relation_types = {
+    "hasType",
+    "hasProperty",
+    "hasUnit", 
+    "hasNumericalValue", 
+    "hasLowerBoundNumericalValue",
+    "hasUpperBoundNumericalValue",
+    "hasManufacturer",
+    "hasPowerSupplyType", 
+    "hasInputSignalType",
+    "hasOutputSignalType",
+    "hasOutputType",
+    "hasPinCount",
+    "hasProcessTechnology"
+}
+
+# specification
+Part,Type,Manufacturer,PowerSupplyType,PinCount,MinimumPSRR,MinimumPSRRUnit,MaximumOperatingSupplyVoltage,MaximumOperatingSupplyVoltageUnit,MinimumSupplyVoltage,MinimumSupplyVoltageUnit,MaximumSupplyVoltage,MaximumSupplyVoltageUnit,TypicalDualSupplyVoltage,TypicalDualSupplyVoltageUnit,TypicalSingleSupplyVoltage,TypicalSingleSupplyVoltageUnit,MinimumCMRR,MinimumCMRRUnit,MaximumInputBiasCurrent,MaximumInputBiasCurrentUnit,MaximumInputOffsetVoltage,MaximumInputOffsetVoltageUnit,MinimumOperatingTemperature,MinimumOperatingTemperatureUnit,MaximumOperatingTemperature,MaximumOperatingTemperatureUnit
+ABC101HP ,Single,Texas Instruments ,Dual ,14,-,dB,±20,V,30,V,50,V,±15,V,-,V,-,dB,0.02,uA,-,°C,70,°C
+PQR6N11T-100E-MNY ,Single,Microchip Technology ,Single ,8,86,dB,5.5,V,5,V,7,V,-,V,3.3|5,V,86,dB,-,uA,-40,°C,125,°C
+"""
