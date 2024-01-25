@@ -316,6 +316,11 @@
     },
     {
       "head": "BGA123L4E6327XTSA1",
+      "relation": "hasProcessTechnology",
+      "tail": "-"
+    },
+    {
+      "head": "BGA123L4E6327XTSA1",
       "relation": "hasPowerSupplyType",
       "tail": "Single"
     },

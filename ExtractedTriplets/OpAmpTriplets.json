@@ -1417,6 +1417,21 @@
     {
       "head": "TLC27M2CP",
       "relation": "hasProperty",
+      "tail": "OutputCurrent"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "OutputCurrent",
+      "relation": "hasUnit",
+      "tail": "mA"
+    },
+    {
+      "head": "TLC27M2CP",
+      "relation": "hasProperty",
       "tail": "GainBandwidthProduct"
     },
     {

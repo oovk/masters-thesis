@@ -261,14 +261,6 @@
     
 
 
-    <!-- http://w3id.org/amplifiers#BroadbandRFAmplifier -->
-
-    <owl:Class rdf:about="http://w3id.org/amplifiers#BroadbandRFAmplifier">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#RFAmplifier"/>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/amplifiers#CMRR -->
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#CMRR"/>
@@ -358,14 +350,6 @@
     
 
 
-    <!-- http://w3id.org/amplifiers#GeneralPurposeRFAmplifier -->
-
-    <owl:Class rdf:about="http://w3id.org/amplifiers#GeneralPurposeRFAmplifier">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#RFAmplifier"/>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/amplifiers#HexVideoAmplifier -->
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#HexVideoAmplifier">
@@ -412,34 +396,10 @@
     
 
 
-    <!-- http://w3id.org/amplifiers#LowNoiseRFAmplifier -->
-
-    <owl:Class rdf:about="http://w3id.org/amplifiers#LowNoiseRFAmplifier">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#RFAmplifier"/>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/amplifiers#LowOffsetVoltageOperationalAmplifier -->
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#LowOffsetVoltageOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/amplifiers#LowPowerOperationalAmplifier -->
-
-    <owl:Class rdf:about="http://w3id.org/amplifiers#LowPowerOperationalAmplifier">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/amplifiers#MMICRFAmplifier -->
-
-    <owl:Class rdf:about="http://w3id.org/amplifiers#MMICRFAmplifier">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#RFAmplifier"/>
     </owl:Class>
     
 
@@ -508,14 +468,6 @@
     
 
 
-    <!-- http://w3id.org/amplifiers#PowerRFAmplifier -->
-
-    <owl:Class rdf:about="http://w3id.org/amplifiers#PowerRFAmplifier">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#RFAmplifier"/>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/amplifiers#PrecisionOperationalAmplifier -->
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#PrecisionOperationalAmplifier">
@@ -528,14 +480,6 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#QuadVideoAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#VideoAmplifier"/>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/amplifiers#RFAmplifier -->
-
-    <owl:Class rdf:about="http://w3id.org/amplifiers#RFAmplifier">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#Amplifier"/>
     </owl:Class>
     
 
@@ -598,14 +542,6 @@
     
 
 
-    <!-- http://w3id.org/amplifiers#WidebandRFAmplifier -->
-
-    <owl:Class rdf:about="http://w3id.org/amplifiers#WidebandRFAmplifier">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#RFAmplifier"/>
-    </owl:Class>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -621,6 +557,249 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AD812ARZ">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#DualVideoAmplifier"/>
+        <hasManufacturer>Analog Devices</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOOT9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOOT9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOPD9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOPD9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#AUDIOSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
     </owl:NamedIndividual>
     
 
@@ -629,6 +808,12 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BD28623MUV-E2">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassD"/>
+        <hasInputSignalType>Single</hasInputSignalType>
+        <hasManufacturer>Rohm Semiconductor</hasManufacturer>
+        <hasOutputSignalType>Differential</hasOutputSignalType>
+        <hasOutputType>2-Channel Stereo</hasOutputType>
+        <hasPinCount>24</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -637,22 +822,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGA123L4E6327XTSA1">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/amplifiers#BGA2866-115 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGA2866-115">
-        <rdf:type rdf:resource="http://w3id.org/amplifiers#MMICRFAmplifier"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/amplifiers#BGA420H6327XTSA1 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGA420H6327XTSA1">
-        <rdf:type rdf:resource="http://w3id.org/amplifiers#MMICRFAmplifier"/>
+        <hasManufacturer>Infineon Technologies AG</hasManufacturer>
+        <hasPinCount>4</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>-</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -661,22 +834,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGA524N6E6327XTSA1">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/amplifiers#BGA622H6820XTSA1 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGA622H6820XTSA1">
-        <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseRFAmplifier"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/amplifiers#BGA7024-115 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGA7024-115">
-        <rdf:type rdf:resource="http://w3id.org/amplifiers#GeneralPurposeRFAmplifier"/>
+        <hasManufacturer>Infineon Technologies AG</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>SiGe</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -685,6 +846,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGA715N7E6327XTSA2">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
+        <hasManufacturer>Infineon Technologies AG</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>SiGe</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -693,14 +858,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGA725L6E6327FTSA1">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/amplifiers#BGA855N6E6327XTSA1 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGA855N6E6327XTSA1">
-        <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseRFAmplifier"/>
+        <hasManufacturer>Infineon Technologies AG</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>SiGe</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -709,6 +870,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGU7004-115">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
+        <hasManufacturer>NXP Semiconductors</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>SiGe</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -717,6 +882,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGU7005-115">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
+        <hasManufacturer>NXP Semiconductors</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>SiGe</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -725,6 +894,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGU7007-115">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
+        <hasManufacturer>NXP Semiconductors</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>SiGe</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -733,6 +906,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGU7008-115">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
+        <hasManufacturer>NXP Semiconductors</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>SiGe</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -741,6 +918,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGU8019X">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
+        <hasManufacturer>NXP Semiconductors</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>SiGe</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -749,6 +930,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BGU8103X">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseGPSAmplifier"/>
+        <hasManufacturer>NXP Semiconductors</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>SiGe</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -757,6 +942,572 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#BM28723AMUV-E2">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassD"/>
+        <hasInputSignalType>Single</hasInputSignalType>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasOutputSignalType>Differential</hasOutputSignalType>
+        <hasOutputType>2-Channel Stereo</hasOutputType>
+        <hasPinCount>32</hasPinCount>
+        <hasPowerSupplyType>Triple</hasPowerSupplyType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSGain9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSGain9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#Gain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSNF9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSNF9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#NoiseFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOF9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOF9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingFrequency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSOT9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSOT9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSPD9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSPD9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSC9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSC9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#GPSSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#GPSSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
     </owl:NamedIndividual>
     
 
@@ -765,6 +1516,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INA101HP">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>14</hasPinCount>
+        <hasPowerSupplyType>Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -773,6 +1527,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INA115BU">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>16</hasPinCount>
+        <hasPowerSupplyType>Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -781,6 +1538,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INA122PA">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -789,6 +1549,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INA125UA">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>16</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -797,6 +1560,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INA2128U">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#DualInstrumentalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>16</hasPinCount>
+        <hasPowerSupplyType>Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -805,6 +1571,649 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INA217AIDWT">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>16</hasPinCount>
+        <hasPowerSupplyType>Dual</hasPowerSupplyType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUCMRR9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUCMRR9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUDSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUIBC9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUIBC9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUOT9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOT9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUPSRR9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUPSRR9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#INSTRUSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
     </owl:NamedIndividual>
     
 
@@ -813,6 +2222,12 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LM386MMX-1-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
+        <hasInputSignalType>Differential</hasInputSignalType>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasOutputSignalType>Single</hasOutputSignalType>
+        <hasOutputType>1-Channel Mono</hasOutputType>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -821,6 +2236,12 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LM4861M-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
+        <hasInputSignalType>Single</hasInputSignalType>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasOutputSignalType>Differential</hasOutputSignalType>
+        <hasOutputType>1-Channel Mono</hasOutputType>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -829,6 +2250,12 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LM4862M-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
+        <hasInputSignalType>Single</hasInputSignalType>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasOutputSignalType>Differential</hasOutputSignalType>
+        <hasOutputType>1-Channel Mono</hasOutputType>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -837,6 +2264,12 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LM4889MA-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
+        <hasInputSignalType>Differential|Single</hasInputSignalType>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasOutputSignalType>Differential</hasOutputSignalType>
+        <hasOutputType>1-Channel Mono</hasOutputType>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -845,6 +2278,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LM6172IN-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#DualVideoAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -853,6 +2289,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LMH6639MA-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowOffsetVoltageOperationalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
+        <hasProcessTechnology>VIP10</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -861,6 +2301,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LMH6714MF-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleVideoAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>5</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -869,6 +2312,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LMH6720MF-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleVideoAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>6</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -877,6 +2323,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LMH6722MA-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#QuadVideoAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>14</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -885,6 +2334,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LMH6738MQ-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#TripleVideoAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>16</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -893,6 +2345,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LMH6739MQ-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#TripleVideoAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>16</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -901,6 +2356,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#LMP8358MA-NOPB">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>14</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -909,6 +2367,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MCP6034-E-SL">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#PrecisionOperationalAmplifier"/>
+        <hasManufacturer>Microchip Technology</hasManufacturer>
+        <hasPinCount>14</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>CMOS</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -917,6 +2379,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MCP607-I-P">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#MicropowerOperationalAmplifier"/>
+        <hasManufacturer>Microchip Technology</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>CMOS</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -925,6 +2391,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MCP6292-E-P">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#GeneralPurposeOperationalAmplifier"/>
+        <hasManufacturer>Microchip Technology</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>CMOS</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -933,6 +2403,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MCP6N11T-100E-MNY">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <hasManufacturer>Microchip Technology</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -941,6 +2414,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MCP6N16-010E-MS">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <hasManufacturer>Microchip Technology</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -949,6 +2425,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MCP6V27-E-SN">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#AutoZeroOperationalAmplifier"/>
+        <hasManufacturer>Microchip Technology</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>CMOS</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -957,23 +2437,23 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MCP6V32-E-MS">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ChopperOperationalAmplifier"/>
+        <hasManufacturer>Microchip Technology</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>CMOS</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
 
     <!-- http://w3id.org/amplifiers#MMG3014NT1 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MMG3014NT1">
-        <rdf:type rdf:resource="http://w3id.org/amplifiers#BroadbandRFAmplifier"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MMG3014NT1"/>
     
 
 
     <!-- http://w3id.org/amplifiers#MW7IC2020NT1 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MW7IC2020NT1">
-        <rdf:type rdf:resource="http://w3id.org/amplifiers#PowerRFAmplifier"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#MW7IC2020NT1"/>
     
 
 
@@ -981,6 +2461,12 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPA1611AID">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
+        <hasInputSignalType>Differential</hasInputSignalType>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasOutputSignalType>Single</hasOutputSignalType>
+        <hasOutputType>1-Channel Mono</hasOutputType>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -989,6 +2475,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPA343UA">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#LowNoiseOperationalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
+        <hasProcessTechnology>CMOS</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -997,6 +2487,740 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPA625IDBVT">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#HighSpeedOperationalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single|Dual</hasPowerSupplyType>
+        <hasProcessTechnology>Bipolar</hasProcessTechnology>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPCMRR9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPCMRR9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#CMRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPGBP9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPGBP9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPIBC9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPIBC9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOC9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOC9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OutputCurrent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPOT9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPOT9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPPSRR9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPPSRR9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#OPSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
     </owl:NamedIndividual>
     
 
@@ -1005,6 +3229,12 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#PAM8610TR">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassD"/>
+        <hasInputSignalType>Differential</hasInputSignalType>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasOutputSignalType>Differential</hasOutputSignalType>
+        <hasOutputType>2-Channel Stereo</hasOutputType>
+        <hasPinCount>40</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -1013,6 +3243,12 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#PAM8945PJR">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassG"/>
+        <hasInputSignalType>Differential</hasInputSignalType>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasOutputSignalType>Differential</hasOutputSignalType>
+        <hasOutputType>1-Channel Mono</hasOutputType>
+        <hasPinCount>12</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -1021,15 +3257,16 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#PGA204AP">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>16</hasPinCount>
+        <hasPowerSupplyType>Dual</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
 
     <!-- http://w3id.org/amplifiers#SMA3103-TL-E -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#SMA3103-TL-E">
-        <rdf:type rdf:resource="http://w3id.org/amplifiers#WidebandRFAmplifier"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#SMA3103-TL-E"/>
     
 
 
@@ -1037,6 +3274,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#THS7360IPW">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#HexVideoAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>20</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -1045,6 +3285,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#THS7360IPWR">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#HexVideoAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>20</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -1053,6 +3296,9 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#THS7374IPW">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#QuadVideoAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>14</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
     </owl:NamedIndividual>
     
 
@@ -1061,6 +3307,10 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#TLC27M2CP">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#WidebandOperationalAmplifier"/>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasPinCount>8</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+        <hasProcessTechnology>LinCMOS</hasProcessTechnology>
     </owl:NamedIndividual>
     
 
@@ -1069,6 +3319,252 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#TPA3125D2N">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassD"/>
+        <hasInputSignalType>Single</hasInputSignalType>
+        <hasManufacturer>Texas Instruments</hasManufacturer>
+        <hasOutputSignalType>Differential|Single</hasOutputSignalType>
+        <hasOutputType>1-Channel Mono|2-Channel Stereo</hasOutputType>
+        <hasPinCount>20</hasPinCount>
+        <hasPowerSupplyType>Single</hasPowerSupplyType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEODSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOOT9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOOT9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingTemperature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV1">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV10 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV10">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV2">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV3">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV4 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV4">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV5 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV5">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV6 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV6">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV7 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV7">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV8 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV8">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/amplifiers#VIDEOSSV9 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV9">
+        <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
     </owl:NamedIndividual>
     
 
@@ -1081,43 +3577,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#AudioAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#GPSAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#InstrumentalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#OperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#RFAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#VideoAmplifier"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#AutoZeroOperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#ChopperOperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#GeneralPurposeOperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#HighSpeedOperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#LowNoiseOperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#LowOffsetVoltageOperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#LowPowerOperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#MicropowerOperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#PrecisionOperationalAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#WidebandOperationalAmplifier"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#BroadbandRFAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#GeneralPurposeRFAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#LowNoiseRFAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#MMICRFAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#PowerRFAmplifier"/>
-            <rdf:Description rdf:about="http://w3id.org/amplifiers#WidebandRFAmplifier"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">

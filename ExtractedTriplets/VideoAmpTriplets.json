@@ -299,6 +299,31 @@
     {
       "head": "LMH6739MQ-NOPB",
       "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "LMH6739MQ-NOPB",
+      "relation": "hasProperty",
       "tail": "SingleSupplyVoltage"
     },
     {
@@ -362,6 +387,31 @@
       "head": "LMH6738MQ-NOPB",
       "relation": "hasPinCount",
       "tail": "16"
+    },
+    {
+      "head": "LMH6738MQ-NOPB",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
     },
     {
       "head": "LMH6738MQ-NOPB",
@@ -617,6 +667,31 @@
     {
       "head": "THS7360IPW",
       "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "THS7360IPW",
+      "relation": "hasProperty",
       "tail": "SingleSupplyVoltage"
     },
     {
@@ -684,6 +759,31 @@
     {
       "head": "THS7374IPW",
       "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
+    },
+    {
+      "head": "THS7374IPW",
+      "relation": "hasProperty",
       "tail": "SingleSupplyVoltage"
     },
     {
@@ -737,6 +837,31 @@
       "head": "THS7360IPWR",
       "relation": "hasPinCount",
       "tail": "20"
+    },
+    {
+      "head": "THS7360IPWR",
+      "relation": "hasProperty",
+      "tail": "DualSupplyVoltage"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "DualSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
     },
     {
       "head": "THS7360IPWR",

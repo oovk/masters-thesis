@@ -686,6 +686,11 @@
     },
     {
       "head": "LM386MMX-1-NOPB",
+      "relation": "hasManufacturer",
+      "tail": "Texas Instruments"
+    },
+    {
+      "head": "LM386MMX-1-NOPB",
       "relation": "hasPowerSupplyType",
       "tail": "Single"
     },
@@ -768,11 +773,6 @@
       "head": "PowerDissipation",
       "relation": "hasUnit",
       "tail": "mW"
-    },
-    {
-      "head": "LM386MMX-1-NOPB",
-      "relation": "hasManufacturer",
-      "tail": "Texas Instruments"
     }
   ],
   [
@@ -810,6 +810,31 @@
       "head": "BM28723AMUV-E2",
       "relation": "hasPinCount",
       "tail": "32"
+    },
+    {
+      "head": "BM28723AMUV-E2",
+      "relation": "hasProperty",
+      "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "-"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUnit",
+      "tail": "V"
     },
     {
       "head": "BM28723AMUV-E2",
