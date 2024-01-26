@@ -28,17 +28,17 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±5"
+      "tail": "5"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasLowerBoundNumericalValue",
-      "tail": "±4"
+      "tail": "4"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±6.25"
+      "tail": "6.25"
     },
     {
       "head": "DualSupplyVoltage",
@@ -120,17 +120,17 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±5|±15"
+      "tail": "5|15"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasLowerBoundNumericalValue",
-      "tail": "±2.75"
+      "tail": "2.75"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±18"
+      "tail": "18"
     },
     {
       "head": "DualSupplyVoltage",
@@ -212,17 +212,17 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±5"
+      "tail": "5"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasLowerBoundNumericalValue",
-      "tail": "±4"
+      "tail": "4"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±6.25"
+      "tail": "6.25"
     },
     {
       "head": "DualSupplyVoltage",
@@ -488,17 +488,17 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±3|±5|±12|±15"
+      "tail": "3|5|12|15"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasLowerBoundNumericalValue",
-      "tail": "±1.2"
+      "tail": "1.2"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±18"
+      "tail": "18"
     },
     {
       "head": "DualSupplyVoltage",
@@ -580,17 +580,17 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±5"
+      "tail": "5"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasLowerBoundNumericalValue",
-      "tail": "±4"
+      "tail": "4"
     },
     {
       "head": "DualSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±6.25"
+      "tail": "6.25"
     },
     {
       "head": "DualSupplyVoltage",

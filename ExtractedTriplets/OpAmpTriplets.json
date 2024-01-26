@@ -1179,6 +1179,16 @@
     },
     {
       "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "4.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "28"
+    },
+    {
+      "head": "SingleSupplyVoltage",
       "relation": "hasUnit",
       "tail": "V"
     },
@@ -1478,7 +1488,7 @@
     },
     {
       "head": "PSRR",
-      "relation": "hasNumericalValue",
+      "relation": "hasLowerBoundNumericalValue",
       "tail": "87.96"
     },
     {
@@ -1513,6 +1523,11 @@
     },
     {
       "head": "SupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "6"
+    },
+    {
+      "head": "SupplyVoltage",
       "relation": "hasUnit",
       "tail": "V"
     },
@@ -1525,6 +1540,16 @@
       "head": "SingleSupplyVoltage",
       "relation": "hasNumericalValue",
       "tail": "5|9|12|15"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "4.5"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasUpperBoundNumericalValue",
+      "tail": "15"
     },
     {
       "head": "SingleSupplyVoltage",
@@ -1570,6 +1595,11 @@
       "head": "OperatingTemperature",
       "relation": "hasUpperBoundNumericalValue",
       "tail": "70"
+    },
+    {
+      "head": "OperatingTemperature",
+      "relation": "hasLowerBoundNumericalValue",
+      "tail": "-40"
     },
     {
       "head": "OperatingTemperature",

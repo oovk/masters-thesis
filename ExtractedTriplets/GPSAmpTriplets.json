@@ -959,6 +959,11 @@
     },
     {
       "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
       "relation": "hasLowerBoundNumericalValue",
       "tail": "1.5"
     },
@@ -1106,6 +1111,11 @@
     },
     {
       "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3"
+    },
+    {
+      "head": "SingleSupplyVoltage",
       "relation": "hasLowerBoundNumericalValue",
       "tail": "1.5"
     },
@@ -1250,6 +1260,11 @@
       "head": "BGU7004-115",
       "relation": "hasProperty",
       "tail": "SingleSupplyVoltage"
+    },
+    {
+      "head": "SingleSupplyVoltage",
+      "relation": "hasNumericalValue",
+      "tail": "3"
     },
     {
       "head": "SingleSupplyVoltage",

@@ -43,7 +43,7 @@
     {
       "head": "OperatingSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±20"
+      "tail": "20"
     },
     {
       "head": "OperatingSupplyVoltage",
@@ -78,7 +78,7 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±15"
+      "tail": "15"
     },
     {
       "head": "DualSupplyVoltage",
@@ -347,7 +347,7 @@
     {
       "head": "OperatingSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±18|36"
+      "tail": "18|36"
     },
     {
       "head": "OperatingSupplyVoltage",
@@ -382,7 +382,7 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±3|±5|±9|±12|±15"
+      "tail": "3|5|9|12|15"
     },
     {
       "head": "DualSupplyVoltage",
@@ -499,7 +499,7 @@
     {
       "head": "OperatingSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±18"
+      "tail": "18"
     },
     {
       "head": "OperatingSupplyVoltage",
@@ -534,7 +534,7 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±15"
+      "tail": "15"
     },
     {
       "head": "DualSupplyVoltage",
@@ -651,7 +651,7 @@
     {
       "head": "OperatingSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±18"
+      "tail": "18"
     },
     {
       "head": "OperatingSupplyVoltage",
@@ -686,7 +686,7 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±15"
+      "tail": "15"
     },
     {
       "head": "DualSupplyVoltage",
@@ -803,7 +803,7 @@
     {
       "head": "OperatingSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±18"
+      "tail": "18"
     },
     {
       "head": "OperatingSupplyVoltage",
@@ -838,7 +838,7 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±15"
+      "tail": "15"
     },
     {
       "head": "DualSupplyVoltage",
@@ -955,7 +955,7 @@
     {
       "head": "OperatingSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±18"
+      "tail": "18"
     },
     {
       "head": "OperatingSupplyVoltage",
@@ -990,7 +990,7 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±15"
+      "tail": "15"
     },
     {
       "head": "DualSupplyVoltage",
@@ -1411,7 +1411,7 @@
     {
       "head": "OperatingSupplyVoltage",
       "relation": "hasUpperBoundNumericalValue",
-      "tail": "±18"
+      "tail": "18"
     },
     {
       "head": "OperatingSupplyVoltage",
@@ -1446,7 +1446,7 @@
     {
       "head": "DualSupplyVoltage",
       "relation": "hasNumericalValue",
-      "tail": "±15"
+      "tail": "15"
     },
     {
       "head": "DualSupplyVoltage",
