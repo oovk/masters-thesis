@@ -1,12 +1,39 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://w3id.org/amplifiers#"
      xml:base="http://w3id.org/amplifiers"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://w3id.org/amplifiers"/>
+    <owl:Ontology rdf:about="http://w3id.org/amplifiers">
+        <rdfs:description>A structured representation and categorization of amplifiers and their electical properties</rdfs:description>
+        <rdfs:label>Amplifier Basic Ontology</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#description"/>
     
 
 
@@ -299,6 +326,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:description>An audio amplifier is an electronic device that amplifies audio signals, typically from a source such as a microphone, musical instrument, or audio playback device</rdfs:description>
     </owl:Class>
     
 
@@ -307,13 +335,28 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#AutoZeroOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
+        <rdfs:description>Auto Zero Operational Amplifiers</rdfs:description>
     </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#CMRR -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#CMRR"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#CMRR">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasLowerBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Common-Mode Rejection Ratio (CMRR): CMRR is a measure of an amplifier&apos;s ability to reject common-mode signals, which are signals that appear simultaneously and identically on both input terminals of the amplifier. CMRR is expressed in decibels (dB) and indicates the ratio of the differential gain to the common-mode gain. A higher CMRR value indicates better rejection of common-mode signals.</rdfs:description>
+    </owl:Class>
     
 
 
@@ -321,6 +364,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#ChopperOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
+        <rdfs:description>Chopper Operational Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -329,6 +373,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#ClassAB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#AudioAmplifier"/>
+        <rdfs:description>ClassAB Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -337,6 +382,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#ClassD">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#AudioAmplifier"/>
+        <rdfs:description>ClassD Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -345,6 +391,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#ClassG">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#AudioAmplifier"/>
+        <rdfs:description>ClassG Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -354,13 +401,28 @@
     <owl:Class rdf:about="http://w3id.org/amplifiers#DualInstrumentalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#InstrumentalAmplifier"/>
         <owl:disjointWith rdf:resource="http://w3id.org/amplifiers#SingleInstrumentalAmplifier"/>
+        <rdfs:description>Dual Instrumental Amplifiers</rdfs:description>
     </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#DualSupplyVoltage -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#DualSupplyVoltage"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#DualSupplyVoltage">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>A dual-voltage supply, also known as a dual rail power supply, is a power supply system that provides two separate voltage outputs, typically with opposite polarities.</rdfs:description>
+    </owl:Class>
     
 
 
@@ -368,6 +430,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#DualVideoAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#VideoAmplifier"/>
+        <rdfs:description>Dual Video Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -436,19 +499,48 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:description>A GPS (Global Positioning System) amplifier, also known as a GPS signal amplifier or GPS signal booster, is a device used to amplify the weak GPS signals received by GPS antennas</rdfs:description>
     </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#Gain -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#Gain"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#Gain">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUpperBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Gain represents the ratio of the output voltage, current, or power to the input voltage, current, or power. Gain is a fundamental parameter that defines the amplification capability of an amplifier and is an essential aspect of its performance.</rdfs:description>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#GainBandwidthProduct -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#GainBandwidthProduct"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#GainBandwidthProduct">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>The Gain-Bandwidth Product (GBW) is a critical parameter in the characterization of operational amplifiers (op-amps) and other amplifiers. It describes the trade-off between the amplifier&apos;s gain and its bandwidth</rdfs:description>
+    </owl:Class>
     
 
 
@@ -456,6 +548,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#GeneralPurposeOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
+        <rdfs:description>General Purpose Operational Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -464,6 +557,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#HexVideoAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#VideoAmplifier"/>
+        <rdfs:description>Hex Video Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -472,13 +566,28 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#HighSpeedOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
+        <rdfs:description>High Speed Operational Amplifiers</rdfs:description>
     </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#InputBiasCurrent -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#InputBiasCurrent"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#InputBiasCurrent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUpperBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Input bias current refers to the small current that flows into the input terminals of the device when no external input signal is applied.</rdfs:description>
+    </owl:Class>
     
 
 
@@ -552,6 +661,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:description>An instrumentation amplifier is a type of electronic amplifier specifically designed for precise and accurate amplification of low-level signals, often in the presence of high common-mode voltages</rdfs:description>
     </owl:Class>
     
 
@@ -560,6 +670,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#LowNoiseGPSAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#GPSAmplifier"/>
+        <rdfs:description>Low Noise GPS Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -568,6 +679,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#LowNoiseOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
+        <rdfs:description>Low Noise Operational Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -576,6 +688,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#LowOffsetVoltageOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
+        <rdfs:description>Low Offset Voltage Operational Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -584,31 +697,100 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#MicropowerOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
+        <rdfs:description>Micro Power Operational Amplifiers</rdfs:description>
     </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#NoiseFigure -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#NoiseFigure"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#NoiseFigure">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Noise figure is a key parameter used to quantify the noise performance of electronic devices, particularly amplifiers. It measures how much the device degrades the signal-to-noise ratio (SNR) of an input signal</rdfs:description>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#OperatingFrequency -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#OperatingFrequency"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#OperatingFrequency">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasLowerBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUpperBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Operating frequency typically refers to the range of frequencies over which a device, circuit, or system is designed to function effectively and reliably.</rdfs:description>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#OperatingSupplyVoltage -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#OperatingSupplyVoltage">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUpperBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Operating supply voltage, also known as supply voltage or power supply voltage, refers to the voltage level required for proper operation of an electronic device or circuit.</rdfs:description>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#OperatingTemperature -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#OperatingTemperature"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#OperatingTemperature">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasLowerBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUpperBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Operating temperature refers to the range of temperatures within which an electronic device, component, or system is designed to function reliably and efficiently.</rdfs:description>
+    </owl:Class>
     
 
 
@@ -694,25 +876,68 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:description>An operational amplifier, often abbreviated as op-amp, is a type of analog electronic component widely used in electronic circuits for various applications due to its versatility, high gain, high input impedance, and low output impedance</rdfs:description>
     </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#OutputCurrent -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#OutputCurrent"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#OutputCurrent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Output current refers to the electrical current flowing from the output terminal of a device or circuit.</rdfs:description>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#PSRR -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#PSRR"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#PSRR">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasLowerBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>PSRR stands for Power Supply Rejection Ratio. It is a measure of the ability of an electronic device, typically an amplifier or integrated circuit, to reject variations in the power supply voltage and maintain stable operation despite fluctuations in the supply voltage. P</rdfs:description>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#PowerDissipation -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#PowerDissipation"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#PowerDissipation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUpperBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Power dissipation refers to the conversion of electrical energy into heat energy within an electronic device or component.</rdfs:description>
+    </owl:Class>
     
 
 
@@ -720,6 +945,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#PrecisionOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
+        <rdfs:description>Pricision Operational Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -728,6 +954,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#QuadVideoAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#VideoAmplifier"/>
+        <rdfs:description>Quad Video Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -736,13 +963,40 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#SingleInstrumentalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#InstrumentalAmplifier"/>
+        <rdfs:description>Single instrumental Amplifiers</rdfs:description>
     </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#SingleSupplyVoltage -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#SingleSupplyVoltage">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasLowerBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUpperBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>A single-supply voltage, also known as a single-ended or single-rail power supply, refers to a power source that provides only one voltage level with respect to a common ground reference.</rdfs:description>
+    </owl:Class>
     
 
 
@@ -750,19 +1004,54 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#SingleVideoAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#VideoAmplifier"/>
+        <rdfs:description>Single Video Amplifiers</rdfs:description>
     </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#SupplyCurrent -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#SupplyCurrent"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#SupplyCurrent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUpperBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Supply current, also known as input current or input power, refers to the amount of electrical current drawn from the power source by an electronic device or circuit. It represents the rate at which electrical charge flows into the device or circuit from the power supply.</rdfs:description>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/amplifiers#SupplyVoltage -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#SupplyVoltage"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#SupplyVoltage">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasLowerBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUnit"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasUpperBoundNumericalValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:description>Supply voltage, also known as operating voltage or power supply voltage, refers to the electrical voltage provided to power electronic devices or circuits.</rdfs:description>
+    </owl:Class>
     
 
 
@@ -770,6 +1059,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#TripleVideoAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#VideoAmplifier"/>
+        <rdfs:description>Triple Video Amplifiers</rdfs:description>
     </owl:Class>
     
 
@@ -814,6 +1104,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:description>A video amplifier is an electronic device used to amplify video signals while maintaining signal integrity and quality</rdfs:description>
     </owl:Class>
     
 
@@ -822,6 +1113,7 @@
 
     <owl:Class rdf:about="http://w3id.org/amplifiers#WidebandOperationalAmplifier">
         <rdfs:subClassOf rdf:resource="http://w3id.org/amplifiers#OperationalAmplifier"/>
+        <rdfs:description>Wideband Operational Amplifiers</rdfs:description>
     </owl:Class>
     
 
