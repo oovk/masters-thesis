@@ -264,7 +264,38 @@
 
     <!-- http://w3id.org/amplifiers#Amplifier -->
 
-    <owl:Class rdf:about="http://w3id.org/amplifiers#Amplifier"/>
+    <owl:Class rdf:about="http://w3id.org/amplifiers#Amplifier">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/amplifiers#PSRR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/amplifiers#PowerDissipation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/amplifiers#SupplyCurrent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/amplifiers#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/amplifiers#SupplyVoltage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -5178,18 +5209,6 @@
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>5</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/amplifiers#VUDOX1 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VUDOX1"/>
-    
-
-
-    <!-- http://w3id.org/amplifiers#AUDOX! -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDOX!"/>
     
 
 
