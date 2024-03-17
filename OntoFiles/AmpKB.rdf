@@ -1384,105 +1384,105 @@
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV1 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV1 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV1">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV1">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>2</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>5.50</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV10 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV10 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV10">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV10">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>2.2</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>5.5</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV2 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV2 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV2">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV2">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>10</hasLowerBoundNumericalValue>
-        <hasNumericalValue>12|15|18|24</hasNumericalValue>
+        <hasNumericalValue>12</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>26</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV3 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV3 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV3">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV3">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>8.5</hasLowerBoundNumericalValue>
-        <hasNumericalValue>9|12|15|18</hasNumericalValue>
+        <hasNumericalValue>9</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>24</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV4 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV4 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV4">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV4">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>4.5</hasLowerBoundNumericalValue>
-        <hasNumericalValue>5|9|12|15|18|24|28</hasNumericalValue>
+        <hasNumericalValue>5</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>36</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV5 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV5 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV5">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV5">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>2.8</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>5.2</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV6 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV6 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV6">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV6">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>2.7</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>5.5</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV7 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV7 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV7">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV7">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>4</hasLowerBoundNumericalValue>
-        <hasNumericalValue>5|9</hasNumericalValue>
+        <hasNumericalValue>5</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>12</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV8 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV8 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV8">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV8">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>-</hasLowerBoundNumericalValue>
         <hasNumericalValue>-</hasNumericalValue>
@@ -1492,9 +1492,9 @@
     
 
 
-    <!-- http://w3id.org/amplifiers#AUDIOSV9 -->
+    <!-- http://w3id.org/amplifiers#AUDIOSSV9 -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSV9">
+    <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#AUDIOSSV9">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>7</hasLowerBoundNumericalValue>
         <hasNumericalValue>12</hasNumericalValue>
@@ -1510,7 +1510,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassD"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT3"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD3"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV3"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV3"/>
         <hasInputSignalType>Single</hasInputSignalType>
         <hasManufacturer>Rohm Semiconductor</hasManufacturer>
         <hasOutputSignalType>Differential</hasOutputSignalType>
@@ -1717,7 +1717,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassD"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT8"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD8"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV8"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV8"/>
         <hasInputSignalType>Single</hasInputSignalType>
         <hasManufacturer>Texas Instruments</hasManufacturer>
         <hasOutputSignalType>Differential</hasOutputSignalType>
@@ -2706,7 +2706,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUDSV2">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
-        <hasNumericalValue>3|5|9|12|15</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
     </owl:NamedIndividual>
     
@@ -2907,7 +2907,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUOSV2">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#OperatingSupplyVoltage"/>
         <hasUnit>V</hasUnit>
-        <hasUpperBoundNumericalValue>18|36</hasUpperBoundNumericalValue>
+        <hasUpperBoundNumericalValue>18</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
     
 
@@ -3206,7 +3206,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV10">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
-        <hasNumericalValue>3.3|5</hasNumericalValue>
+        <hasNumericalValue>3.3</hasNumericalValue>
         <hasUnit>V</hasUnit>
     </owl:NamedIndividual>
     
@@ -3266,7 +3266,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV7">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
     </owl:NamedIndividual>
     
@@ -3276,7 +3276,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#INSTRUSSV8">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
-        <hasNumericalValue>3.3|5</hasNumericalValue>
+        <hasNumericalValue>3.3</hasNumericalValue>
         <hasUnit>V</hasUnit>
     </owl:NamedIndividual>
     
@@ -3408,7 +3408,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT7"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD7"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV7"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV7"/>
         <hasInputSignalType>Differential</hasInputSignalType>
         <hasManufacturer>Texas Instruments</hasManufacturer>
         <hasOutputSignalType>Single</hasOutputSignalType>
@@ -3425,7 +3425,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT1"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD1"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV1"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV1"/>
         <hasInputSignalType>Single</hasInputSignalType>
         <hasManufacturer>Texas Instruments</hasManufacturer>
         <hasOutputSignalType>Differential</hasOutputSignalType>
@@ -3442,7 +3442,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT6"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD6"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV6"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV6"/>
         <hasInputSignalType>Single</hasInputSignalType>
         <hasManufacturer>Texas Instruments</hasManufacturer>
         <hasOutputSignalType>Differential</hasOutputSignalType>
@@ -3459,7 +3459,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT10"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD10"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV10"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV10"/>
         <hasInputSignalType>Differential|Single</hasInputSignalType>
         <hasManufacturer>Texas Instruments</hasManufacturer>
         <hasOutputSignalType>Differential</hasOutputSignalType>
@@ -3743,7 +3743,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassAB"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT4"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD4"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV4"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV4"/>
         <hasInputSignalType>Differential</hasInputSignalType>
         <hasManufacturer>Texas Instruments</hasManufacturer>
         <hasOutputSignalType>Single</hasOutputSignalType>
@@ -4509,7 +4509,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV1">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>2.5</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>6</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -4521,7 +4521,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV10">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>1.8</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>5.5</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -4533,7 +4533,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV2">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>2.3</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>5.5</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -4545,7 +4545,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV3">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>2.4</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>6</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -4557,7 +4557,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV4">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>1.8</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>5.5</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -4569,7 +4569,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV5">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>3.0</hasLowerBoundNumericalValue>
-        <hasNumericalValue>5|9</hasNumericalValue>
+        <hasNumericalValue>5</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>12.0</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -4581,7 +4581,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV6">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>4.5</hasLowerBoundNumericalValue>
-        <hasNumericalValue>5|9|12|15|18|24|28</hasNumericalValue>
+        <hasNumericalValue>5</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>28</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -4605,7 +4605,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV8">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>4.5</hasLowerBoundNumericalValue>
-        <hasNumericalValue>5|9|12|15</hasNumericalValue>
+        <hasNumericalValue>5</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>15</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -4616,7 +4616,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#OPSSV9">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
-        <hasNumericalValue>5|9|12|15</hasNumericalValue>
+        <hasNumericalValue>5</hasNumericalValue>
         <hasUnit>V</hasUnit>
     </owl:NamedIndividual>
     
@@ -4737,7 +4737,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassD"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT9"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD9"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV9"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV9"/>
         <hasInputSignalType>Differential</hasInputSignalType>
         <hasManufacturer>Texas Instruments</hasManufacturer>
         <hasOutputSignalType>Differential</hasOutputSignalType>
@@ -4754,7 +4754,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassG"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT5"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD5"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV5"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV5"/>
         <hasInputSignalType>Differential</hasInputSignalType>
         <hasManufacturer>Texas Instruments</hasManufacturer>
         <hasOutputSignalType>Differential</hasOutputSignalType>
@@ -4853,7 +4853,7 @@
         <rdf:type rdf:resource="http://w3id.org/amplifiers#ClassD"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOOT2"/>
         <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOPD2"/>
-        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSV2"/>
+        <hasProperty rdf:resource="http://w3id.org/amplifiers#AUDIOSSV2"/>
         <hasInputSignalType>Single</hasInputSignalType>
         <hasManufacturer>Texas Instruments</hasManufacturer>
         <hasOutputSignalType>Differential|Single</hasOutputSignalType>
@@ -4881,7 +4881,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV10">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
         <hasLowerBoundNumericalValue>2.75</hasLowerBoundNumericalValue>
-        <hasNumericalValue>5|15</hasNumericalValue>
+        <hasNumericalValue>5</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>18</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -4929,7 +4929,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEODSV5">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#DualSupplyVoltage"/>
         <hasLowerBoundNumericalValue>1.2</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5|12|15</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>18</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -5099,7 +5099,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV1">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>8</hasLowerBoundNumericalValue>
-        <hasNumericalValue>9|12</hasNumericalValue>
+        <hasNumericalValue>9</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>12.6</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -5123,7 +5123,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV2">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>8</hasLowerBoundNumericalValue>
-        <hasNumericalValue>9|12</hasNumericalValue>
+        <hasNumericalValue>9</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>12.5</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -5159,7 +5159,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV5">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>2.4</hasLowerBoundNumericalValue>
-        <hasNumericalValue>3|5|9|12|15|18|24|28</hasNumericalValue>
+        <hasNumericalValue>3</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>36</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
@@ -5171,7 +5171,7 @@
     <owl:NamedIndividual rdf:about="http://w3id.org/amplifiers#VIDEOSSV6">
         <rdf:type rdf:resource="http://w3id.org/amplifiers#SingleSupplyVoltage"/>
         <hasLowerBoundNumericalValue>8</hasLowerBoundNumericalValue>
-        <hasNumericalValue>9|12</hasNumericalValue>
+        <hasNumericalValue>9</hasNumericalValue>
         <hasUnit>V</hasUnit>
         <hasUpperBoundNumericalValue>12.5</hasUpperBoundNumericalValue>
     </owl:NamedIndividual>
