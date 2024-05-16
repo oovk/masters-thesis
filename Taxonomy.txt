@@ -112,6 +112,8 @@ DataProperties : Describe relationship between individuals and data values
                                                 -> hasUpperBoundNumericalValue
                                                 -> hasUnit
 
+    ABCD -> hasManufacturer -> "Texas Instruments"
+
 
 
 
