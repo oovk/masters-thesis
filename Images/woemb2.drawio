@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" modified="2024-06-22T14:31:12.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="6gG6Cs0iXrJdbZr-JndY" version="24.6.1" type="device">
+  <diagram name="Page-1" id="AJFjJkV1zPf08xJIQZtJ">
+    <mxGraphModel dx="954" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e6URXNrlREObhPDibHBT-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://api.wandb.ai/files/mostafaibrahim17/images/projects/37042936/341b2e98.png;" vertex="1" parent="1">
+          <mxGeometry x="370" y="508.71" width="183" height="184.29" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
